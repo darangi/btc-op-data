@@ -4,7 +4,9 @@ const { indexBlocks } = require("./scripts/indexblocks");
 const { monitor } = require("./scripts/monitorblocks");
 const { blockChain } = require("./config");
 const { getLastIndexedBlockHeight } = require('./services/opreturn');
-
+/**
+ * Incase of a server restart, pick the last indexed blockheight and continue indexing
+ */
 getLastIndexedBlockHeight().then(lastIndexedHeight => {
   if (lastIndexedHeight) {
     console.log(`Last indexed block height ${lastIndexedHeight}`);
