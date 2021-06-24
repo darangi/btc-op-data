@@ -6,33 +6,27 @@ const getBlockChainInfo = () => {
   }
   catch (ex) {
     console.log(ex.message);
-    console.error(`no blockchain Info found`);
-
   }
 }
 
 const getBlockHash = (blockHeight) => {
   if (!blockHeight) {
-    console.error(`No blockHeight provided`);
     return;
   }
   try {
     return blockchain([{ method: 'getblockhash', parameters: [parseInt(blockHeight)] }]);
   }
   catch (ex) {
-    console.error(`No blockInfo found for blockHeight:${blockHeight}`);
   }
 }
 
 const getBlock = async (blockHash) => {
   if (!blockHash) {
-    console.error(`No hash provided`);
     return;
   }
   try {
     const block = await blockchain([{ method: 'getblock', parameters: [blockHash, 2] }]);
     if (block.message) {
-      console.log(block.message)
       return null
     }
     return block

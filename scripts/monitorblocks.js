@@ -10,17 +10,15 @@ let isMonitoring = false
 const monitor = async () => {
   if (isMonitoring) return;
   console.log("checking for new blocks")
+
   try {
     isMonitoring = true;
+
     const lastBlockheight = await getLastBlockHeight();
     const lastIndexedBlockHeight = await getLastIndexedBlockHeight();
+
     if (lastBlockheight > lastIndexedBlockHeight) {
-      console.log(`${lastBlockheight - lastIndexedBlockHeight} block(s) detected`);
-      const successfullyIndexed = await indexBlocks(lastIndexedBlockHeight, lastBlockheight);
-      console.log(`Succesfully added ${successfullyIndexed} indexes(s)`);
-    }
-    else {
-      console.log("Zero New block(s) detected");
+      await indexBlocks(lastIndexedBlockHeight, lastBlockheight);
     }
   }
   catch (ex) {

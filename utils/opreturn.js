@@ -1,11 +1,13 @@
 const extractOpMetaData = async (transactions) => {
   try {
     let result = [];
-    for (transaction of transactions) {
+    transactions.forEach(transaction => {
       if (!transaction.vout) {
         continue;
       }
+
       const data = transaction.vout.find(output => output.scriptPubKey.type === 'nulldata');
+
       if (data) {
         result.push({
           opReturnHex: data.scriptPubKey.hex,
@@ -13,7 +15,7 @@ const extractOpMetaData = async (transactions) => {
           transactionHash: transaction.hash
         })
       }
-    }
+    })
     return result;
   }
   catch (ex) {

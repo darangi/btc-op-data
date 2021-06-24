@@ -14,7 +14,9 @@ const saveBlock = async ({ transactionHash, blockHash, blockHeight, opReturn, op
 const getOpReturns = async ({ opReturn, page = 1 }) => {
   try {
     const offset = (page - 1) * itemsPerPage;
+
     const { rows } = await db.query("SELECT * FROM op_returns WHERE op_return= $1 OR op_return_hex= $1 LIMIT $2 OFFSET $3", [opReturn, itemsPerPage, offset]);
+    
     return rows
   }
   catch (ex) {
@@ -25,6 +27,7 @@ const getOpReturns = async ({ opReturn, page = 1 }) => {
 const getLastIndexedBlockHeight = async () => {
   try {
     const { rows } = await db.query(`select block_height from op_returns order by block_height desc limit 1`);
+    
     return rows && rows.length ? rows[0].block_height : null;
   }
   catch (ex) {
