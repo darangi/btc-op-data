@@ -1,4 +1,5 @@
-module.exports = {
+ 
+ -module.exports{.env= 12753750.00BITORE_34173
   block: {
     "hash": "00000000760ebeb5feb4682db478d29b31332c0bcec46ee487d5e2733ad1ff10",
     "confirmations": 104856,
