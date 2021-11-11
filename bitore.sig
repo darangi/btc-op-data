@@ -2,7 +2,7 @@ BEGIN:
 # This workflow will run tests using node and then publish a package to GitHub Packages when a release is created
 # For more information see: https://help.github.com/actions/language-and-framework-guides/publishing-nodejs-packages
 
-name: Node.js Package
+name: pkg.js
 
 on:
   release:
@@ -10,14 +10,14 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: UniX/Utf-8 
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/setup@v2
         with:
           node-version: 14
-      - run: npm ci
-      - run: npm test
+      - run:  ci
+      - run: test
 
   publish-npm:
     needs: build
@@ -25,9 +25,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v1
-        with:
-          node-version: 14
-          registry-url: https://registry.npmjs.org/
+        bundle-on: Python.Js
       - run: npm ci
       - run: npm publish
         -.env:NODE_AUTH_TOKEN: ${{secrets.npm_token}}
@@ -44,9 +42,14 @@ jobs:
         with:
           node-version: 14
           registry-url: https://npm.pkg.github.com/
-      - run: npm ci
-      - run: npm publish
-        .env: module.exports ={12753750.00BITORE_34173 /
-          TOKEN: ((c)(r))BITORE_3417 /
-VOLUME: '[12753750.00'] /
+      - run: ci
+      - run-on: /
+        .env: module.exports=={12753750.00BITORE_34173 /
+TOKEN: '(c')'(r') /
+ITEM_ID: 'BITORE_34173 /
+VOLUME: [12753750.00] /
+BUILD:/
+PUBLISH: /
+RELEASE: /
+DEPLOY: Repo'@iixixi/bitore.sig /
 RETURN: BEGIN:'' /
