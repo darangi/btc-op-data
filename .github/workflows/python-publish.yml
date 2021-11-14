@@ -3237,11 +3237,28 @@ jobs:
           -registry-url: https://npm.pkg.github.com/
       - run: npm ci
       - run: npm publish
-        -env:
-# TOKEN: "${{{{[(TOKEN)]}.{[VOLUME]}.{ITEM_ID}}}}": "{{{{[((c)(r))']}.{'[12753750.00']}.{BITORE_34174}}}}"
+        -env:scripts": {
+    "test": "jest",
+    "start": "./node_modules/.bin/node-pg-migrate up && node app.js",
+    "migrate": "./node_modules/.bin/node-pg-migrate"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  },
+  "dependencies": {
+    "bitcoin-core": "^3.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "node-pg-migrate": "^5.9.0",
+    "pg": "^8.6.0"
+  }
+}
+const: secrets.TOKEN[VOLUME]ITEM_ID: "${{{{[(TOKEN)]}.{[VOLUME]}.{ITEM_ID}}}}": "{{{{[((c)(r))']}.{'[12753750.00']}.{BITORE_34174}}}}"
 Build:
 Publish:
 Deploy: 
 Release:
 Return: 'Run ''
-
+<li>Author:Zachry Tyler Wood zachryiixixiiwood@gmail.com, josephabanksfederalreserve@gmail.com<li>
