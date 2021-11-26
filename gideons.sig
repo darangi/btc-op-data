@@ -4,7 +4,76 @@
 name: ci
 on:
   release:
-    types: [created]
+    types: [From 051931deae295ccb2ce7c4149a0423f21bd81a6d Mon Sep 17 00:00:00 2001
+From: Zachry T Wood III the predecessor to JPMorgan Chase Bank NA and INT
+ <zachryiixixiiwood@gmail.com>
+Date: Thu, 25 Nov 2021 23:52:48 -0600
+Subject: [PATCH] 
+Create: BTC-USD
+new file mode: BITORE_34173
+Volume: 12753750.00
+const: ${{ ((C)(R))[12753750.00]BITORE_34173 }}
++version:1:on:
++ownership:Zachry T WooD III:on:
++name:docs-internal:on:
++  long_name:GitHub Help Docs:on:
++  kind:heroku:on:
++  repo: bitore.sig
++  team:github/docs-engineering:on:
++  maintainer:iixixi:on:
++  exec_sponsor:iixixi:on:
++  product_manager:iixixi:on:
++  mention:github/docs-engineering:on:
++  qos:critical:on:
++  dependencies:[((c))((r))]:©®™:patent:on:
+:Build::
++    tta:every3sec:on:
+runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 17.x
+          cache: "yarn"
+'#' This workflow uses actions that are not certified by GitHub.''
+'#' They are provided by a third-party and are governed by''
+'#' separate terms of service, privacy policy, and support''
+'#' documentation.
+'#' <li>zachryiixixiiwood@gmail.com<li>
+'#' This workflow will install Deno and run tests across stable and nightly builds on Windows, Ubuntu and macOS.''
+'#' For more information see: https://github.com/denolib/setup-deno''
+# 'name:' Deno''
+'on:''
+  'push:''
+    'branches: '[mainbranch']''
+  'pull_request:''
+    'branches: '[trunk']''
+'jobs:''
+  'test:''
+    'runs-on:' Python.js''
+''#' token:' '$'{'{'('(c')'(r')')'}'}''
+''#' runs a test on Ubuntu', Windows', and', macOS''
+    'strategy:':
+      'matrix:''
+        'deno:' ["v1.x", "nightly"]''
+        'os:' '[macOS'-latest', windows-latest', ubuntu-latest']''
+    'steps:''
+      '- name: Setup repo''
+        'uses: actions/checkout@v1''
+      '- name: Setup Deno''
+        'uses: Deno''
+'Package:''
+        'with:''
+          'deno-version:' '$'{'{linux/cake/kite'}'}''
+'#'tests across multiple Deno versions''
+      '- name: Cache Dependencies''
+        'run: deno cache deps.ts''
+      '- name: Run Tests''
+        'run: deno test''
+'::Build:' sevendre''
+'Return
+' Run'']
 jobs:
   build:
     runs-on: ubuntu-latest
