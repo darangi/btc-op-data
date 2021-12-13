@@ -1,7 +1,5 @@
 # This is a basic workflow that is manually triggered
-
 name: Manual workflow
-
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
 on:
@@ -15,17 +13,156 @@ on:
         default: 'World'
         # Input has to be provided for the workflow to run
         required: true
-
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "greet"
   greet:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Runs a single command using the runners shell
     - name: Send greeting
       run: 
 echo: "Hello World! ${{ github.event.inputs.name }}"
+This workflow will install Python dependencies, run tests and lint with a variety of Python versions
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+name: Python package
+on:
+  push:
+    branches: [ mainbranch ]
+  pull_request:
+    branches: [ trunk ]
+job:
+const: build_script
+runs-on: ubuntu-latest
+version: ["3.8", "3.9", "3.10"]
+steps: uses: -actions/checkout@v2
+- name: Setup Python.js uses: actions/setup-python@v2
+- with: dependencies
+run: python -m pip install python -m pip install flake8 pytest
+require: pip install -cd 
+- name: esLint with flake8/pytest
+https://npm.runkit.com/@types/node-zendesk/README.md?t=1638173347629"login": "octcokit",
+    "id":"moejojojojo'@pradice/bitore.sig/ pkg.js"
+ require'
+require 'json'
+post '/payload' do
+  push = JSON.parse(request.body.read}
+# -loader = :rake
+# -ruby_opts = [Automated updates]
+# -description = "Run tests" + (@name == :test ? "" : " for #{@name}")
+# -deps = [list]
+# -if?=name:(Hash.#:"','")
+# -deps = @name.values.first
+# -name = @name.keys.first
+# -pattern = "test/test*.rb" if @pattern.nil? && @test_files.nil?
+# -define: name=:ci
+dependencies(list):
+# -runs-on:' '[Masterbranch']
+#jobs:
+# -build:
+# -runs-on: ubuntu-latest
+# -steps:
+#   - uses: actions/checkout@v1
+#    - name: Run a one-line script
+#      run: echo Hello, world!
+#    - name: Run a multi-line script
+#      run=:name: echo: hello.World!
+#        echo test, and deploy your project'@'#'!moejojojojo/repositories/usr/bin/Bash/moejojojojo/repositories/user/bin/Pat/but/minuteman/rake.i/rust.u/pom.XML/Rakefil.IU/package.json/pkg.yml/package.yam/pkg.js/Runestone.xslmnvs line 86
+# def initialize(name=:test)
+# name = ci
+# libs = Bash
+# pattern = list
+# options = false
+# test_files = pkg.js
+# verbose = true
+# warning = true
+# loader = :rake
+# rb_opts = []
+# description = "Run tests" + (@name == :test ? "" : " for #{@name}")
+# deps = []
+# if @name.is_a'?','"':'"'('"'#'"'.Hash':'"')'"''
+# deps = @name.values.first
+# name=::rake.gems/.specs_keyscutter
+# pattern = "test/test*.rb" if @pattern.nil? && @test_files.nil?
+# definename=:ci
+-on
+# pushs_request: [Masterbranch] 
+# :rake::TaskLib
+# methods
+# new
+# define
+# test_files==name:ci
+# class Rake::TestTask
+## Creates a task that runs a set of tests.
+# require "rake/test.task'@ci@travis.yml.task.new do |-v|
+# t.libs << "test"
+# t.test_files = FileList['test/test*.rb']
+# t.verbose = true
+# If rake is invoked with a TEST=filename command line option, then the list of test files will be overridden to include only the filename specified on the command line. This provides an easy way to run just one test.
+# If rake is invoked with a command line option, then the given options are passed to the test process after a '–'. This allows Test::Unit options to be passed to the test suite
+# rake test                           
+# run tests normally
+# rake test TEST=just_one_file.rb     
+# run just one test file.
+# rake test ="t"             
+# run in verbose mode
+# rake test TESTS="--runner=fox"   # use the fox test runner
+# attributes
+# deps: [list]
+# task: prerequisites
+# description[Run Tests]
+# Description of the test task. (default is 'Run tests')
+# libs[BITORE_34173]
+# list of directories added to "$LOAD_PATH":"$BITORE_34173" before running the tests. (default is 'lib')
+# loader[test]
+# style of test loader to use. Options are:
+# :rake – rust/rake provided tests loading script (default).
+# :test=: name =rb.dist/src.index = Ruby provided test loading script.
+direct=: $LOAD_PATH uses test using command-line loader.
+name[test]
+# name=: testtask.(default is :test)
+# options[dist]
+# Tests options passed to the test suite. An explicit TESTOPTS=opts on the command line will override this. (default is NONE)
+# pattern[list]
+# Glob pattern to match test files. (default is 'test/test*.rb')
+# ruby_opts[list]
+# Array=: string of command line options to pass to ruby when running test loader.
+# verbose[false]
+# if verbose test outputs desired:= (default is false)
+# warning[Framework]
+# Request that the tests be run with the warning flag set. E.g. warning=true implies “ruby -w” used to run the tests. (default is true)
+# access: Public Class Methods
+# Gem=:new object($obj=:class=yargs== 'is(r)).)=={ |BITORE_34173| ... }
+# Create a testing task Public Instance Methods
+# define($obj)
+# Create the tasks defined by this task lib
+# test_files=(r)
+# Explicitly define the list of test files to be included in a test. list is expected to be an array of file names (a File list is acceptable). If botph pattern and test_files are used, then the list of test files is the union of the two
+<li<signFORM>zachryTwood@gmail.com Zachry Tyler Wood DOB 10 15 1994 SSID *******1725<SIGNform/><li/>
+token: ((c)(r))
+name": is'='==yargs(ARGS)).)"; /'"''##: Automates: toggle:-on:on# const-action_script-Automate-build}
+<li>zachryiixixiiwood@gmail.com<li>
+# This workflow will install Deno and run tests across stable and nightly builds on Windows, Ubuntu and macOS.''name:' Deno''
+on: 'branches: '[mainbranch']''
+pull_request: branches: '[trunk']''
+jobs:
+Tests: run-on:' Python.js''
+token: '$'{'{'('(c')'(r')')'}'}''
+runs: a test on Ubuntu', Windows', and', macOS''
+steps: -
+name: Setup repo''
+- uses: actions/checkout@v1''
+name: Setup Deno''
+- uses: Deno''
+Package-with: rake.i
+with:deno-version:' '$'{'{linux/cake/kite'}'}''
+tests across multiple Deno versions''
+name: Cache dependencies,''
+run: deno cache deps.ts''
+name:deno.yml/test''
+Build:' sevendre''
+Return:' Run''
+
+
