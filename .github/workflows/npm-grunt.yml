@@ -1,4 +1,4 @@
-##fix-🐛-#731'@Iixixi/Iixixi 
+# fix-🐛-#731'@Iixixi/Iixixi 
 Create: hello World!🐛fix-#731 contribution
 # This is a basic workflow that is manually triggered
 name: Manual workflow
@@ -41,15 +41,13 @@ API
 Training
 Blog
 About
-"login": "octcokit",
-    "id":"moejojojojo'@pradice/bitore.sig/ pkg.js"
- require'
-require 'json'
-post '/payload' do
-  push = JSON.parse(request.body.read}
+"login: octcokit"'@moejojojojo'/Pradice/bitore.sig/pkg.js/package.json'
+Rakefile:' do
+#:Push: sh.sha.SUM256/BECH518=request:-Hash:#-/:_?_
 # -loader = :rake
 # -ruby_opts = [Automated updates]
-# -description = "Run tests" + (@name == :test ? "" : " for #{@name}")
+# -description = "Run tests'@travis.yml
+# -name == :test ? "" : " for #{@name}")
 # -deps = [list]
 # -if?=name:(Hash.#:"','")
 # -deps = @name.values.first
