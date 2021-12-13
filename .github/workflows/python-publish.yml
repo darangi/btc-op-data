@@ -1,3 +1,1038 @@
+###/starts/Runs::/Build::Script::/build_script:const:name:on::"''
+'# -Workflow_call:-on- Toggles-the-runner-on:on::
+# - " This workflow contains a single job called build”
+"::Build:":"a-multi-line-one-line-script"
+    # The type of runner that the job will run on
+    Runs-on: ubuntu-latest
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    Step: uses: action/checksout@v2
+      # Run: name
+name: build-and-deployee
+Jobs: uses: "#-trigger-to-toggle-actions-on workflow_call:On:-on-:
+'"Steps':' uses: -
+Runs: a multi-one-line-action_script'
+echo: hello World!'
+name:  🪁'
+run-on:  ubuntu-latest'
+Request: release
+-package-with: Python.js
+-  push: iixixi/ZachryTylerWood/.github/workflows/
+-    branches: [ main ]
++Launch:  
++bundle-with: Python.js
+name: Repo'-sync
+repo'Sync:=={data'@iixixi/ZachryTylerWood/.github/workflows/
++    branches:[ mainbranch ]
+   Pull_request:
+-       Branches: [ mainbranch ]
++    branches:[ trunk ]
+ Jobs:
+-       Runs-on:’ ‘- steps:
+     Name: ✨ Engineering
+     To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
+@@ -33,23 +26,24 @@ jobs:
+         Ruby-version: 2.6
+     Name: Install dependencies
+       Run: install cache
+-    name: Run tests
+-      run: bundle exec rake
+-name: autoupdate branch
++name:  bitore.sig
++run: bundle exec rake
++name:autoupdate branch
+ On:
+   Push:
+     Branches:
+-         - main
++      [main]
+Job: -steps
+Autoupdate:
+name: autoupdates
+Runs-on: package.yam/pkg.js        
+$Rakefile: $(((c)(r)))
+   Pull: ✨Engineering
+name: deno.yml
+on:
+Pushs:
+Branch: [mainbranch]
+pull_request:
+branches:  [trunk]
+Job: Tests
+Tests: test'@CI
+Runs-on: ubuntu-latest
+
+    Steps:
+-    Name: Setup repo
+        Uses: actions/checkout@v2
+
+-    Name: Setup Deno
+        # uses: denoland/setup-deno@v1
+        Uses: denoland/setup-deno@004814556e37c54a2f6e31384c9e18e9833173669
+        With:
+          Deno-version: v1.x
+      # Uncomment this step to verify the use of ‘deno fmt’ on each commit.
+      # - name: Verify formatting
+      #   run: deno fmt –check
+      - name: Run linter
+      -  run: deno lint
+      -  name: Run tests
+        - run: deno test -A –unstable
+Loading complete
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+# 💁 The OpenShift Starter workflow will:
+# - Checkout your repository
+# - Perform a container image build
+# - Push the built image to the GitHub Container Registry (GHCR)
+# - Log in to your OpenShift cluster
+# - Create an OpenShift app from the image an
+-'Runs: 
+workflow_call: angulaura
+'name: Vienna''
+-on:
+  push:
+    branches:
+      - main
+      - dev-1
+  pull_request:
+    branches:
+      - main
+jobs:
+-
+ const: build_script:
+ build_script: Automates
+Automate:
+:Automate-Fix::'*logs::All:''
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 17.x
+          cache: "yarn"
+      - run: yarn --frozen-lockfile
+      - uses: actions/cache@v1
+        with:
+          path: .eslintcache
+          key: lint-${{ env.GITHUB_SHA }}
+          restore-keys: lint-
+      - run: yarn lint
+  basic:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 17.x
+          cache: "yarn"
+      -       matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        node-version: [10.x, 17.x]
+        part: [a, b]
+        include:
+          - os: ubuntu-latest
+            node-version: 16.x
+            part: a
+          - os: ubuntu-latest
+            node-version: 14.x
+            part: a
+          - os: ubuntu-latest
+            node-version: 12.x
+      
+      - run:  package.json/pkh.js
+
+      - uses: actions/cache@v1
+        with:
+          path: .jest-cache
+          key: jest-integration-${{ env.GITHUB_SHA }}
+          restore-keys
+      - run:: build-and-deployee''
+name help wanted
+echo: Hello world!
+test: @travis.yml
+name CI
+git fetch origin
+git checkout -b trunk-1-2 origin/trunk-1-2
+git merge patch-1test.
+title: automates updaate
+on:
+  push:
+    branches:
+      - main
+jobs:
+  autoupdate:
+    name: autoupdate
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: 
+        env:'on:''
+  'push:''
+    'branches: '[mainbranch']''
+  'pull_request:''
+    'branches: '[trunk']''
+'jobs:''
+  'test:''
+    'runs-on:' Python.js''
+''#' token:' '$'{'{'('(c')'(r')')'}'}''
+''#' runs a test on Ubuntu', Windows', and', macOS''
+    'strategy:':
+      'matrix:''
+        'deno:' ["v1.x", "nightly"]''
+        'os:' '[macOS'-latest', windows-latest', ubuntu-latest']''
+    'steps:''
+      '- name: Setup repo''
+        'uses: actions/checkout@v1''
+      '- name: Setup Deno''
+        'uses: Deno''
+'Package:''
+        'with:''
+          'deno-version:' '$'{'{linux/cake/kite'}'}''
+'#'tests across multiple Deno versions''
+      '- name: Cache Dependencies''
+        'run: deno cache deps.ts''
+      '- name: Run Tests''
+        'run: deno test''
+const: GITHUB_TOKEN
+GITHUB_TOKEN: ${{ secrets.OCTOMERGER_PAT_WITH_REPO_AND_WORKFLOW_SCOPE }}
+          PR_FILTER: labelled
+          PR_LABELS: autoupdate
+          MERGE_MSG: "Branch was updated using the 'autoupdate branch' Actions workflow.'"''
+name: Start new engineering PR workflow
+on: 
+  pull_request: 
+    types: [opened, reopened]
+jobs:
+  triage:
+    if: github.repository == 'github/docs-internal'
+    runs-on: ubuntu-latest
+    continue-on-false: true
+    env:  papaya@pika.dir
+    steps:
+    - name: ci
+     jobs: uses 
+      with:
+          github-token: ${{'[
+          script: |
+              // Only assign the engineering folks
+              try { 
+                await github.teams.getMembershipForUserInOrg({
+                  org: 'github',
+                  team_slug: 'docs-engineering',
+                  username: context.payload.sender.login,
+                });
+              } catch(err) {
+                
+              }
+              // Set column ID
+              const column_id = context.payload.pull_request.draft
+                ? process.env.DRAFT_COLUMN_ID
+                : process.env.REGULAR_COLUMN_ID
+              // Try to create the card on the GitHub Project
+              try {
+                await github.projects.createCard({
+                  column_id: column_id,
+                  content_type: 'PullRequest',
+                  content_id: context.payload.pull_request.id
+                });
+              } catch(error) {
+                console.log(error);
+              }
+              // Try to set the author as the assignee
+              const owner = context.payload.repository.owner.login
+              const repo = context.payload.repository.name
+              try {
+                await github.issues.addAssignees({
+                  owner: owner,
+                  repo: repo,
+                  issue_number: context.payload.pull_request.number,
+                  assignees: [
+                    context.payload.sender.login
+                  ]
+                });
+              } cache() {
+                console.log(((c)(r)));
+              }name: autosquash
+on:
+  pull_request:
+    types:
+      - labeled
+      - unlabeled
+      - synchronize
+      - opened
+      - edited
+      - ready_for_review
+      - reopened
+      - unlocked
+  pull_request_review:
+    types:
+      - submitted
+  check_suite:
+    types:
+      - completed
+  status: {}
+jobs:
+  automerge:
+    runs-on: ubuntu-latest
+    if: contains(github.event.pull_request.labels.*.name, 'autosquash')
+    steps:
+      - name: autosquash
+        uses: "pascalgn/automerge-action@135f0bdb927d9807b5446f7ca9ecc2c51de03c4a": "merge"module.exports = {
+  entry: 'Jekylls.debugger./javascripts/index.js',
+  output: {
+    filename: 'index.js',
+    path: path.resolve(__dirname, 'dist'),
+    publicPath: '/dist'
+  },
+  module: {
+    rules: [
+      {
+        test: /\.m?js$/,
+        exclude: /(node_modules|bower_components)/,
+        use: {
+          loader: 'babel-loader',
+          options: Changes to this file should also be appliedto '.github/workflows/docs//test/javascript/Kekylls/debugger/windows.yml'
+name: Automate
+automate: Automated:  actions.js'@ZachryTylerWoodAdministrator@.git.it.github.gist/((c)(r))BITORE_34173
+discussion: help-wanted
+echo: Hello World!
+Title: MINUTEMEN
+name: test arm
+label: ✨Engineering 
+Request: 
+Push:
+pushs_request:  [ branch ]
+Request: 
+Pull: 
+pulls_request: [branches]
+
+      - main
+  pull_request:
+env:
+  CI: true
+job: - steps
+cache: "package.yam/pkg.js"
+uses: "actions/cache@v1"
+with: "Unix/Utf-8"
+run-on: "ubuntu-latest" 
+GITHUB.secrcet: "${{ env.GITHUB_SHA }}"
+          restore-keys: "${{ ((c)(r)).[12753750.00]M]_BITORE_34173 }}"
+      - run: "ruby.mn"
+  basic:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 17.x
+          cache: "yarn"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 17.x
+          cache: "yarn"
+      - run: yarn --frozen-lockfile
+      - run: yarn link --frozen-lockfile || true
+      - run: yarn link webpack --frozen-lockfile
+      - uses: actions/cache@v1
+        with:
+          path: .jest-cache
+          key: jest-unit-${{ env.GITHUB_SHA }}
+          restore-keys: jest-unit-
+      - run: yarn cover:unit --ci --cacheDirectory .jest-cache
+      - uses:  actions.js@v1
+        with:
+          flags: unit
+          functionalities:
+  integration:
+    needs: basic
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macOS-latest
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checksout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-beta@v-10.0.12
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "yarn"
+      - run: yarn --frozen-lockfile
+      - run: yarn link --frozen-lockfile || true
+      - run: yarn link webpack --frozen-lockfile
+      - uses: actions/cache@v1
+        with:
+          path: .jest-cache
+          key: jest-integration-${{ env.GITHUB_SHA }}
+          restore-keys: jest-integration-
+      - run: pkg.js/pom.xml
+    types: [ready_for_review, opened, reopened]
+jobs:
+  pr-auto:
+    runs-on: ubuntu-latest
+    steps:
+      - name: lint pr
+        env:
+          GH_REPO: ${{ github.repository }}
+          GH_TOKEN: ${{}}
+          PRID: ${{ github.event.pull_request.node_id }}
+          PRBODY: ${{ github.event.pull_request.body }}
+          PRNUM: ${{ github.event.pull_request.number }}
+          PRHEAD: ${{ github.event.pull_request.head.label }}
+          PRAUTHOR: ${{ github.event.pull_request.user.login }}
+          PR_AUTHOR_TYPE: ${{ github.event.pull_request.user.type }}
+        if: "!github.event.pull_request.draft"
+Request:
+Pull:
+pulls_request: clone: user/repositories/title/name/::get::':.git::':clones'@https://github.com/{mojoejoejoejoe}/.git.it/BITORE_34173/module.env./iLinguist/git submodule update query='query$owner:String $repo:String!)/
+              repository(owner:owner, name:$repo) {
+                project number:1'"' "$PR_AUTHOR_TYPE" = "Zachry Tyler Wood, zachryTwood@gmail.com, josephabanksfederalreserve@gmail.com" ]''
+# Enables cloning the Early Access repo later with the relevant Pat/but
+          persist-credentials: 'false'
+      - name: Setup node
+        uses: actions/setup-node.js@v1
+        with:
+          node-version: 16.x
+          cache: npm
+      - name: Install dependencies
+        run: CI@travis.yml
+      - if: ${{  heroku-to-test-build-and-deployee'-tests'@travis.ym]''
+Post: build
+const: repo'Sync'{'${{DOCUBOT_REPO_PAT: ${{ secrets.DOCUBOT_REPO_PAT }}
+          GIT_BRANCH: ${{ github.head_ref || github.ref }}
+      - if: ${{github.repository=='github/docs-internal'}} - name: test'@travis.yml
+-  Actions: read
+  Checks: read
+  Contents: read
+  Deployments: read
+  Discussions: read
+  Issues: read
+  Metadata: read
+  Packages: read
+  Pages: read
+  PullRequests: read
+  RepositoryProjects: read
+  SecurityEvents: read
+  Statuses: read
+Prepare workflow directory
+Prepare all required actions
+Getting action download info
+Download action repository 'actions/checkout@v2' (SHA:ec3a7ce113134d7a93b817d10a8272cb61118579)actions/checkout@v2
+  with:
+    repository:? ?
+    token: ***
+    ssh-strict: true
+    persist-credentials: true
+    clean: true
+    fetch-depth: 1
+    lfs: false
+    submodules: false
+Syncing repository: rails/rails
+Getting Git version info
+  Working directory: C:\\/home/runner/work/Cake/stale'
+  /usr/bin/git/Automates/squash_merge
+  remote: Enumerating objects: 5057, done.        
+  remote: Counting objects:   0% (1/5057)        
+  remote: Counting objects:   1% (51/5057)        
+  remote: Counting objects:   2% (102/5057)        
+  remote: Counting objects:   3% (152/5057)        
+  remote: Counting objects:   4% (203/5057)        
+  remote: Counting objects:   5% (253/5057)        
+  remote: Counting objects:   6% (304/5057)        
+  remote: Counting objects:   7% (354/5057)        
+  remote: Counting objects:   8% (405/5057)        
+  remote: Counting objects:   9% (456/5057)        
+  remote: Counting objects:  10% (506/5057)        
+  remote: Counting objects:  11% (557/5057)        
+  remote: Counting objects:  12% (607/5057)        
+  remote: Counting objects:  13% (658/5057)        
+  remote: Counting objects:  14% (708/5057)        
+  remote: Counting objects:  15% (759/5057)        
+  remote: Counting objects:  16% (810/5057)        
+  remote: Counting objects:  17% (860/5057)        
+  remote: Counting objects:  18% (911/5057)        
+  remote: Counting objects:  19% (961/5057)        
+  remote: Counting objects:  20% (1012/5057)        
+  remote: Counting objects:  21% (1062/5057)        
+  remote: Counting objects:  22% (1113/5057)        
+  remote: Counting objects:  23% (1164/5057)        
+  remote: Counting objects:  24% (1214/5057)        
+  remote: Counting objects:  25% (1265/5057)        
+  remote: Counting objects:  26% (1315/5057)        
+  remote: Counting objects:  27% (1366/5057)        
+  remote: Counting objects:  28% (1416/5057)        
+  remote: Counting objects:  29% (1467/5057)        
+  remote: Counting objects:  30% (1518/5057)        
+  remote: Counting objects:  31% (1568/5057)        
+  remote: Counting objects:  32% (1619/5057)        
+  remote: Counting objects:  33% (1669/5057)        
+  remote: Counting objects:  34% (1720/5057)        
+  remote: Counting objects:  35% (1770/5057)        
+  remote: Counting objects:  36% (1821/5057)        
+  remote: Counting objects:  37% (1872/5057)        
+  remote: Counting objects:  38% (1922/5057)        
+  remote: Counting objects:  39% (1973/5057)        
+  remote: Counting objects:  40% (2023/5057)        
+  remote: Counting objects:  41% (2074/5057)        
+  remote: Counting objects:  42% (2124/5057)        
+  remote: Counting objects:  43% (2175/5057)        
+  remote: Counting objects:  44% (2226/5057)        
+  remote: Counting objects:  45% (2276/5057)        
+  remote: Counting objects:  46% (2327/5057)        
+  remote: Counting objects:  47% (2377/5057)        
+  remote: Counting objects:  48% (2428/5057)        
+  remote: Counting objects:  49% (2478/5057)        
+  remote: Counting objects:  50% (2529/5057)        
+  remote: Counting objects:  51% (2580/5057)        
+  remote: Counting objects:  52% (2630/5057)        
+  remote: Counting objects:  53% (2681/5057)        
+  remote: Counting objects:  54% (2731/5057)        
+  remote: Counting objects:  55% (2782/5057)        
+  remote: Counting objects:  56% (2832/5057)        
+  remote: Counting objects:  57% (2883/5057)        
+  remote: Counting objects:  58% (2934/5057)        
+  remote: Counting objects:  59% (2984/5057)        
+  remote: Counting objects:  60% (3035/5057)        
+  remote: Counting objects:  61% (3085/5057)        
+  remote: Counting objects:  62% (3136/5057)        
+  remote: Counting objects:  63% (3186/5057)        
+  remote: Counting objects:  64% (3237/5057)        
+  remote: Counting objects:  65% (3288/5057)        
+  remote: Counting objects:  66% (3338/5057)        
+  remote: Counting objects:  67% (3389/5057)        
+  remote: Counting objects:  68% (3439/5057)        
+  remote: Counting objects:  69% (3490/5057)        
+  remote: Counting objects:  70% (3540/5057)        
+  remote: Counting objects:  71% (3591/5057)        
+  remote: Counting objects:  72% (3642/5057)        
+  remote: Counting objects:  73% (3692/5057)        
+  remote: Counting objects:  74% (3743/5057)        
+  remote: Counting objects:  75% (3793/5057)        
+  remote: Counting objects:  76% (3844/5057)        
+  remote: Counting objects:  77% (3894/5057)        
+  remote: Counting objects:  78% (3945/5057)        
+  remote: Counting objects:  79% (3996/5057)        
+  remote: Counting objects:  80% (4046/5057)        
+  remote: Counting objects:  81% (4097/5057)        
+  remote: Counting objects:  82% (4147/5057)        
+  remote: Counting objects:  83% (4198/5057)        
+  remote: Counting objects:  84% (4248/5057)        
+  remote: Counting objects:  85% (4299/5057)        
+  remote: Counting objects:  86% (4350/5057)        
+  remote: Counting objects:  87% (4400/5057)        
+  remote: Counting objects:  88% (4451/5057)        
+  remote: Counting objects:  89% (4501/5057)        
+  remote: Counting objects:  90% (4552/5057)        
+  remote: Counting objects:  91% (4602/5057)        
+  remote: Counting objects:  92% (4653/5057)        
+  remote: Counting objects:  93% (4704/5057)        
+  remote: Counting objects:  94% (4754/5057)        
+  remote: Counting objects:  95% (4805/5057)        
+  remote: Counting objects:  96% (4855/5057)        
+  remote: Counting objects:  97% (4906/5057)        
+  remote: Counting objects:  98% (4956/5057)        
+  remote: Counting objects:  99% (5007/5057)        
+  remote: Counting objects: 100% (5057/5057)        
+  remote: Counting objects: 100% (5057/5057), done.        
+  remote: Compressing objects:   0% (1/4273)        
+  remote: Compressing objects:   1% (43/4273)        
+  remote: Compressing objects:   2% (86/4273)        
+  remote: Compressing objects:   3% (129/4273)        
+  remote: Compressing objects:   4% (171/4273)        
+  remote: Compressing objects:   5% (214/4273)        
+  remote: Compressing objects:   6% (257/4273)        
+  remote: Compressing objects:   7% (300/4273)        
+  remote: Compressing objects:   8% (342/4273)        
+  remote: Compressing objects:   9% (385/4273)        
+  remote: Compressing objects:  10% (428/4273)        
+  remote: Compressing objects:  11% (471/4273)        
+  remote: Compressing objects:  12% (513/4273)        
+  remote: Compressing objects:  13% (556/4273)        
+  remote: Compressing objects:  14% (599/4273)        
+  remote: Compressing objects:  15% (641/4273)        
+  remote: Compressing objects:  16% (684/4273)        
+  remote: Compressing objects:  17% (727/4273)        
+  remote: Compressing objects:  18% (770/4273)        
+  remote: Compressing objects:  19% (812/4273)        
+  remote: Compressing objects:  20% (855/4273)        
+  remote: Compressing objects:  21% (898/4273)        
+  remote: Compressing objects:  22% (941/4273)        
+  remote: Compressing objects:  23% (983/4273)        
+  remote: Compressing objects:  24% (1026/4273)        
+  remote: Compressing objects:  25% (1069/4273)        
+  remote: Compressing objects:  26% (1111/4273)        
+  remote: Compressing objects:  27% (1154/4273)        
+  remote: Compressing objects:  28% (1197/4273)        
+  remote: Compressing objects:  29% (1240/4273)        
+  remote: Compressing objects:  30% (1282/4273)        
+  remote: Compressing objects:  31% (1325/4273)        
+  remote: Compressing objects:  32% (1368/4273)        
+  remote: Compressing objects:  33% (1411/4273)        
+  remote: Compressing objects:  34% (1453/4273)        
+  remote: Compressing objects:  35% (1496/4273)        
+  remote: Compressing objects:  36% (1539/4273)        
+  remote: Compressing objects:  37% (1582/4273)        
+  remote: Compressing objects:  38% (1624/4273)        
+  remote: Compressing objects:  39% (1667/4273)        
+  remote: Compressing objects:  40% (1710/4273)        
+  remote: Compressing objects:  41% (1752/4273)        
+  remote: Compressing objects:  42% (1795/4273)        
+  remote: Compressing objects:  43% (1838/4273)        
+  remote: Compressing objects:  44% (1881/4273)        
+  remote: Compressing objects:  45% (1923/4273)        
+  remote: Compressing objects:  46% (1966/4273)        
+  remote: Compressing objects:  47% (2009/4273)        
+  remote: Compressing objects:  48% (2052/4273)        
+  remote: Compressing objects:  49% (2094/4273)        
+  remote: Compressing objects:  50% (2137/4273)        
+  remote: Compressing objects:  51% (2180/4273)        
+  remote: Compressing objects:  52% (2222/4273)        
+  remote: Compressing objects:  53% (2265/4273)        
+  remote: Compressing objects:  54% (2308/4273)        
+  remote: Compressing objects:  55% (2351/4273)        
+  remote: Compressing objects:  56% (2393/4273)        
+  remote: Compressing objects:  57% (2436/4273)        
+  remote: Compressing objects:  58% (2479/4273)        
+  remote: Compressing objects:  59% (2522/4273)        
+  remote: Compressing objects:  60% (2564/4273)        
+  remote: Compressing objects:  61% (2607/4273)        
+  remote: Compressing objects:  62% (2650/4273)        
+  remote: Compressing objects:  63% (2692/4273)        
+  remote: Compressing objects:  64% (2735/4273)        
+  remote: Compressing objects:  65% (2778/4273)        
+  remote: Compressing objects:  66% (2821/4273)        
+  remote: Compressing objects:  67% (2863/4273)        
+  remote: Compressing objects:  68% (2906/4273)        
+  remote: Compressing objects:  69% (2949/4273)        
+  remote: Compressing objects:  70% (2992/4273)        
+  remote: Compressing objects:  71% (3034/4273)        
+  remote: Compressing objects:  72% (3077/4273)        
+  remote: Compressing objects:  73% (3120/4273)        
+  remote: Compressing objects:  74% (3163/4273)        
+  remote: Compressing objects:  75% (3205/4273)        
+  remote: Compressing objects:  76% (3248/4273)        
+  remote: Compressing objects:  77% (3291/4273)        
+  remote: Compressing objects:  78% (3333/4273)        
+  remote: Compressing objects:  79% (3376/4273)        
+  remote: Compressing objects:  80% (3419/4273)        
+  remote: Compressing objects:  81% (3462/4273)        
+  remote: Compressing objects:  82% (3504/4273)        
+  remote: Compressing objects:  83% (3547/4273)        
+  remote: Compressing objects:  84% (3590/4273)        
+  remote: Compressing objects:  85% (3633/4273)        
+  remote: Compressing objects:  86% (3675/4273)        
+  remote: Compressing objects:  87% (3718/4273)        
+  remote: Compressing objects:  88% (3761/4273)        
+  remote: Compressing objects:  89% (3803/4273)        
+  remote: Compressing objects:  90% (3846/4273)        
+  remote: Compressing objects:  91% (3889/4273)        
+  remote: Compressing objects:  92% (3932/4273)        
+  remote: Compressing objects:  93% (3974/4273)        
+  remote: Compressing objects:  94% (4017/4273)        
+  remote: Compressing objects:  95% (4060/4273)        
+  remote: Compressing objects:  96% (4103/4273)        
+  remote: Compressing objects:  97% (4145/4273)        
+  remote: Compressing objects:  98% (4188/4273)        
+  remote: Compressing objects:  99% (4231/4273)        
+  remote: Compressing objects: 100% (4273/4273)        
+  remote: Compressing objects: 100% (4273/4273), done.        
+  Receiving objects:   0% (1/5057)
+  Receiving objects:   1% (51/5057)
+  Receiving objects:   2% (102/5057)
+  Receiving objects:   3% (152/5057)
+  Receiving objects:   4% (203/5057)
+  Receiving objects:   5% (253/5057)
+  Receiving objects:   6% (304/5057)
+  Receiving objects:   7% (354/5057)
+  Receiving objects:   8% (405/5057)
+  Receiving objects:   9% (456/5057)
+  Receiving objects:  10% (506/5057)
+  Receiving objects:  11% (557/5057)
+  Receiving objects:  12% (607/5057)
+  Receiving objects:  13% (658/5057)
+  Receiving objects:  14% (708/5057)
+  Receiving objects:  15% (759/5057)
+  Receiving objects:  16% (810/5057)
+  Receiving objects:  17% (860/5057)
+  Receiving objects:  18% (911/5057)
+  Receiving objects:  19% (961/5057)
+  Receiving objects:  20% (1012/5057)
+  Receiving objects:  21% (1062/5057)
+  Receiving objects:  22% (1113/5057)
+  Receiving objects:  23% (1164/5057)
+  Receiving objects:  24% (1214/5057)
+  Receiving objects:  25% (1265/5057)
+  Receiving objects:  26% (1315/5057)
+  Receiving objects:  27% (1366/5057)
+  Receiving objects:  28% (1416/5057)
+  Receiving objects:  29% (1467/5057)
+  Receiving objects:  30% (1518/5057)
+  Receiving objects:  31% (1568/5057)
+  Receiving objects:  32% (1619/5057)
+  Receiving objects:  33% (1669/5057)
+  Receiving objects:  34% (1720/5057)
+  Receiving objects:  35% (1770/5057)
+  Receiving objects:  36% (1821/5057)
+  Receiving objects:  37% (1872/5057)
+  Receiving objects:  38% (1922/5057)
+  Receiving objects:  39% (1973/5057)
+  Receiving objects:  40% (2023/5057)
+  Receiving objects:  41% (2074/5057)
+  Receiving objects:  42% (2124/5057)
+  Receiving objects:  43% (2175/5057)
+  Receiving objects:  44% (2226/5057)
+  Receiving objects:  45% (2276/5057)
+  Receiving objects:  46% (2327/5057)
+  Receiving objects:  47% (2377/5057)
+  Receiving objects:  48% (2428/5057)
+  Receiving objects:  49% (2478/5057)
+  Receiving objects:  50% (2529/5057)
+  Receiving objects:  51% (2580/5057)
+  Receiving objects:  52% (2630/5057)
+  Receiving objects:  53% (2681/5057)
+  Receiving objects:  54% (2731/5057)
+  Receiving objects:  55% (2782/5057)
+  Receiving objects:  56% (2832/5057)
+  Receiving objects:  57% (2883/5057)
+  Receiving objects:  58% (2934/5057)
+  Receiving objects:  59% (2984/5057)
+  Receiving objects:  60% (3035/5057)
+  Receiving objects:  61% (3085/5057)
+  Receiving objects:  62% (3136/5057)
+  Receiving objects:  63% (3186/5057)
+  Receiving objects:  64% (3237/5057)
+  Receiving objects:  65% (3288/5057)
+  Receiving objects:  66% (3338/5057)
+  Receiving objects:  67% (3389/5057)
+  Receiving objects:  68% (3439/5057)
+  Receiving objects:  69% (3490/5057)
+  Receiving objects:  70% (3540/5057)
+  Receiving objects:  71% (3591/5057)
+  Receiving objects:  72% (3642/5057)
+  Receiving objects:  73% (3692/5057)
+  Receiving objects:  74% (3743/5057)
+  Receiving objects:  75% (3793/5057)
+  Receiving objects:  76% (3844/5057)
+  Receiving objects:  77% (3894/5057)
+  Receiving objects:  78% (3945/5057)
+  Receiving objects:  79% (3996/5057)
+  Receiving objects:  80% (4046/5057)
+  Receiving objects:  81% (4097/5057)
+  Receiving objects:  82% (4147/5057)
+  Receiving objects:  83% (4198/5057)
+  Receiving objects:  84% (4248/5057)
+  Receiving objects:  85% (4299/5057)
+  Receiving objects:  86% (4350/5057)
+  Receiving objects:  87% (4400/5057)
+  Receiving objects:  88% (4451/5057)
+  Receiving objects:  89% (4501/5057)
+  Receiving objects:  90% (4552/5057)
+  Receiving objects:  91% (4602/5057)
+  Receiving objects:  92% (4653/5057)
+  Receiving objects:  93% (4704/5057)
+  Receiving objects:  94% (4754/5057)
+  Receiving objects:  95% (4805/5057)
+  Receiving objects:  96% (4855/5057)
+  Receiving objects:  97% (4906/5057)
+  Receiving objects:  98% (4956/5057)
+  Receiving objects:  99% (5007/5057)
+  remote: Total 5057 (delta 355), reused 2552 (delta 182), pack-reused 0        
+  Receiving objects: 100% (5057/5057)
+  Receiving objects: 100% (5057/5057), 8.95 MiB | 18.21 MiB/s, done.
+  Resolving deltas:   0% (0/355)
+  Resolving deltas:   1% (4/355)
+  Resolving deltas:   2% (8/355)
+  Resolving deltas:   3% (11/355)
+  Resolving deltas:   4% (15/355)
+  Resolving deltas:   5% (18/355)
+  Resolving deltas:   6% (22/355)
+  Resolving deltas:   7% (25/355)
+  Resolving deltas:   8% (29/355)
+  Resolving deltas:   9% (32/355)
+  Resolving deltas:  10% (36/355)
+  Resolving deltas:  11% (40/355)
+  Resolving deltas:  12% (43/355)
+  Resolving deltas:  13% (47/355)
+  Resolving deltas:  14% (50/355)
+  Resolving deltas:  15% (54/355)
+  Resolving deltas:  16% (57/355)
+  Resolving deltas:  17% (61/355)
+  Resolving deltas:  18% (64/355)
+  Resolving deltas:  19% (68/355)
+  Resolving deltas:  20% (71/355)
+  Resolving deltas:  21% (75/355)
+  Resolving deltas:  22% (79/355)
+  Resolving deltas:  23% (82/355)
+  Resolving deltas:  24% (86/355)
+  Resolving deltas:  25% (89/355)
+  Resolving deltas:  26% (93/355)
+  Resolving deltas:  27% (96/355)
+  Resolving deltas:  28% (100/355)
+  Resolving deltas:  29% (103/355)
+  Resolving deltas:  30% (107/355)
+  Resolving deltas:  31% (111/355)
+  Resolving deltas:  32% (114/355)
+  Resolving deltas:  33% (118/355)
+  Resolving deltas:  34% (121/355)
+  Resolving deltas:  35% (125/355)
+  Resolving deltas:  36% (128/355)
+  Resolving deltas:  37% (132/355)
+  Resolving deltas:  38% (135/355)
+  Resolving deltas:  39% (139/355)
+  Resolving deltas:  40% (142/355)
+  Resolving deltas:  41% (146/355)
+  Resolving deltas:  42% (150/355)
+  Resolving deltas:  43% (153/355)
+  Resolving deltas:  44% (157/355)
+  Resolving deltas:  45% (160/355)
+  Resolving deltas:  46% (164/355)
+  Resolving deltas:  47% (167/355)
+  Resolving deltas:  48% (171/355)
+  Resolving deltas:  49% (174/355)
+  Resolving deltas:  50% (178/355)
+  Resolving deltas:  51% (182/355)
+  Resolving deltas:  52% (185/355)
+  Resolving deltas:  53% (189/355)
+  Resolving deltas:  54% (192/355)
+  Resolving deltas:  55% (196/355)
+  Resolving deltas:  56% (199/355)
+  Resolving deltas:  57% (203/355)
+  Resolving deltas:  58% (206/355)
+  Resolving deltas:  59% (210/355)
+  Resolving deltas:  60% (213/355)
+  Resolving deltas:  61% (217/355)
+  Resolving deltas:  62% (221/355)
+  Resolving deltas:  63% (224/355)
+  Resolving deltas:  64% (228/355)
+  Resolving deltas:  65% (231/355)
+  Resolving deltas:  66% (235/355)
+  Resolving deltas:  67% (238/355)
+  Resolving deltas:  68% (242/355)
+  Resolving deltas:  69% (245/355)
+  Resolving deltas:  70% (249/355)
+  Resolving deltas:  71% (253/355)
+  Resolving deltas:  72% (256/355)
+  Resolving deltas:  73% (260/355)
+  Resolving deltas:  74% (263/355)
+  Resolving deltas:  75% (267/355)
+  Resolving deltas:  76% (270/355)
+  Resolving deltas:  77% (274/355)
+  Resolving deltas:  78% (277/355)
+  Resolving deltas:  79% (281/355)
+  Resolving deltas:  80% (284/355)
+  Resolving deltas:  81% (288/355)
+  Resolving deltas:  82% (292/355)
+  Resolving deltas:  83% (295/355)
+  Resolving deltas:  84% (299/355)
+  Resolving deltas:  85% (302/355)
+  Resolving deltas:  86% (306/355)
+  Resolving deltas:  87% (309/355)
+  Resolving deltas:  88% (313/355)
+  Resolving deltas:  89% (316/355)
+  Resolving deltas:  90% (320/355)
+  Resolving deltas:  91% (324/355)
+  Resolving deltas:  92% (327/355)
+  Resolving deltas:  93% (331/355)
+  Resolving deltas:  94% (334/355)
+  Resolving deltas:  95% (338/355)
+  Resolving deltas:  96% (341/355)
+  Resolving deltas:  97% (345/355)
+  Resolving deltas:  98% (348/355)
+  Resolving deltas:  99% (352/355)
+  Resolving deltas: 100% (355/355)
+  Resolving deltas: 100% (355/355), done.
+  From https://github.com/:rake/rehls
+   * [new ref] 
+*[SEC Form 4                                                            
+UNITED STATES SECURITIES AND EXCHANGE COMMISSION            OMB APPROVAL            11/15/2021                                    
+Washington, D.C. 20549            OMB Number:            3235-0287                                    
+STATEMENT OF CHANGES IN BENEFICIAL OWNERSHIP            hours per response:            0.5                                    
+WOOD    ZACHRY    TYLER    BTC-USD    (Check all applicable)                                            
+Table I - Non-Derivative Securities Acquired, Disposed of, or Beneficially Owned            3. Transaction Code (Instr. 8)    Code    Amount                                        
+BTC-USD    11/12/2021    11/15/2021    (S¹)    (D)        12753750.00BTC-USD                                    
+        Price                x                        64935.00                                    
+Explanation of Responses:    11/15/2021                    ___________________                                    
+Table II - Derivative Securities Acquired, Disposed of, or Beneficially Owned                        12753750                                    
+                    total                                        
+                        $ 828165521475 .00USD                                    
+***Signature of Reporting Persons                                                            
+** Intentional misstatements or omissions of facts constitute Federal Criminal Violations See 18 U.S.C. 1001 and 15 U.S.C. 78ff(a).                                                            
+Reminder: Report on a separate line for each class of securities beneficially owned directly or indirectly.                                                            
+* If the form is filed by more than one reporting person, see Instruction 4 (b)(v).                                                            
+Note: File three copies of this Form, one of which must be manually signed. If space is insufficient, see Instruction 6 for procedure.                                                            
+Persons who respond to the collection of information contained in this form are not required to respond unless the form displays a currently valid OMB Number.                                                            
+                                                            
+                                                            
+                                                            
+                                                            
+                                                            
+/s/  WOOD.,  ZACHRY T.                                                              
+/s/ Zachry Tyler Wood    Date                                                        
+Significance                                                            
+/s/  WOOD.,  ZACHRY T.                                                              
+SSID     ***-**-1725                                                        
+Dob    10/15/1994                                                        
+                                                            
+                                                            
+Remittance Information - AMER & Canada                                                            
+                                                            
+Publish Date: Mar 10, 2021                                                            
+                                                            
+Description                                                            
+                                                            
+Remittance Information - AMER & Canada                                                            
+                                                            
+Resolution                                                            
+                                                            
+For customers in the United States and Latin America:                                                            
+The remittance address for US Post mail will be:                                                            
+Salesforce.com Inc.                                                            
+P.O. Box 203141                                                            
+Dallas, TX 75320-3141                                                            
+                                                             
+The remittance address for overnight delivery/courier service is:                                                            
+Salesforce.com Inc.                                                            
+2975 Regent Blvd, Suite 100                                                            
+Irving, TX 75063                                                            
+Ref: Lockbox Services, Lkbx #203141                                                            
+                                                            
+Bank Information for US and LACA (USD):                                                            
+Bank Name:  Wells Fargo                                                            
+420 Montgomery Street San Francisco, CA 94104                                                            
+(415) 222-3926                                                            
+                                                             
+Bank Information for US (USD):                                                            
+Bank Name:                                          Wells Fargo                                                            
+Account Name:                                     Salesforce.com Inc. (AR)                                                            
+AIC No.:                                               4121519896                                                            
+ABA No.:                                              1210-0024-8                                                            
+                                                            
+Bank Information for LACA (ROWH) (USD):                                                            
+Bank Name:                                          Wells Fargo                                                            
+Account Name:                                     Salesforce.com Inc. (ROWH)                                                            
+Swift Code:                                           WFBIUS6S                                                            
+AIC No.:                                                4121519896                                                            
+ABA No.  (routing transit number):          1210-0024-8                                                            
+                                                             
+                                                             
+For customers in Canada (Billed in USD):                                                            
+The remittance address for Canada Post mail will be:                                                            
+SALESFORCE CANADA CORP                                                            
+C/O 913321                                                            
+PO BOX 4090, STN A                                                            
+TORONTO, ON M5W 0E9 CANADA                                                            
+                                                            
+The remittance address for overnight delivery/courier service is:                                                            
+BANK OF AMERICA MERRILL LYNCH LOCKBOX SERVICES                                                            
+C/O 913321                                                            
+181 BAY STREET, 5TH FLOOR                                                            
+TORONTO ON                                                            
+CANADA M5J 2V8                                                            
+                                                             
+Bank Information for Canada (USD):                                                            
+Bank Name:                                          Bank of America, N.A., Canada  Branch                                                            
+Account Name:                                     Salesforce.com Canada Corporation                                                            
+Swift Code:                                           BOFACATT                                                            
+AIC No.:                                                46464102                                                            
+Sort Code:                                             024156792                                                            
+                                                             
+                                                             
+For customers in Canada (Billed in CAD):                                                            
+The remittance address for Canada Post mail will be:                                                            
+SALESFORCE CANADA CORP                                                            
+C/O 914540                                                            
+PO BOX 4090, STN A                                                            
+TORONTO, ON M5W 0E9                                                            
+                                                            
+The remittance address for overnight delivery/courier service is:                                                            
+BANK OF AMERICA MERRILL LYNCH LOCKBOX SERVICES                                                            
+C/O 914540                                                            
+181 BAY STREET, 5TH FLOOR                                                            
+TORONTO ON                                                            
+CANADA M5J 2V8                                                            
+                                                             
+Bank Information for Canada (CAD):                                                            
+Bank Name:                                          Bank of America, N.A., Canada  Branch                                                            
+Account Name:                                      Salesforce.com Canada Corporation                                                            
+Swift Code:                                           BOFACATT                                                            
+AIC No.:                                               46464219                                                            
+Sort Code:                                            024156792                                                            
+                                                             
+Additional Information for Customers in AMER:                                                            
+                                                             
+NYSE Stock Ticker:                                          CRM                                                            
+D&B #:                                                             07-214-8831                                                            
+Federal Tax ID:                                                 94-3320693                                                            
+NA/CS:                                                            511210                                                            
+SIC:                                                                 4813                                                            
+DUNS #:                                                          07-214-8831                                                            
+# Of Employees (as of 2020):                          49,000                                                            
+                                                             
+Remittance Advice Address:   Email:  payment@salesforce.com                                                            
+                                                             
+Legal:                                      Todd Machtmes                                                            
+                                               Email:  tmachtmes@salesforce.com                                                            
+                                                             
+Service Description:                  We provide a comprehensive Customer Relationship Management or CRM service to businesses of all sizes and industries worldwide.                                                            
+                                                             
+Incorporated:                            Delaware, February 1999                                                            
+                                                             
+Payment Terms:                       Net 30                                                            
+                                                             
+                                                             
+                                                            
+Back to Salesforce Billing Department Home Page                                                            
+                                                            
+Knowledge Article Number                                                            
+                                                            
+340081                                                            
+                                                            
+WAS THIS INFORMATION HELPFUL?                                                            
+                                                            
+Let us know so we can improve!                                                            
+                                                            
+YesNo                                                            
+                                                            
+                                                             
+                                                            
+                                                            
+￼                                                            
+                                                            
+U.S. Department of the Treasury                                                            
+                                                            
+Office of Public Affairs                                                            
+                                                            
+                                                             
+                                                            
+Press Release:             FOR IMMEDIATE RELEASE                                                            
+                                                            
+8-Dec-21                                                            
+                                                            
+                                                             
+                                                            
+Contact:                    John Rizzo; Press@Treasury.gov                                                             
+                                                            
+                                                             
+]        f7ff6e44c93d90f7e068dc9479433acc488827dc -> pull/43649/merge
+Determining the checkout info
+Checking out the ref
+  /usr/bin/git checkout --progress --force refs/remotes/pull/43649/merge
+  Note: switching….completed Your now switching back to a branch: bitore.sig
+  If you want to create a new branch to retain commits you create, you may
+  do so (now or later) by using -c with the switch command 
+with:  git switch by setting config variable advice.detachedHead to false
+ usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+/usr/bin/git submodule foreach --recursive git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :
+0s
+Cleaning up orphan processes
+Return'"':'"' Run:''
 git fetch origin
 git checkout -b BITCORE origin/BITCORE
 git merge paradice
