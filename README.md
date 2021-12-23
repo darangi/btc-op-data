@@ -1,43 +1,84 @@
+# This workflow will build a docker container, publish it to Google Container Registry, and deploy it to GKE when there is a push to the master branch.
+###:GLOW7::
+# To configure this workflow:
+#04 lines (196 sloc)  7.01 KB
+# fix-🐛-#731'@Iixixi/Iixixi 
+Create: hello World!🐛fix-#731 contribution
+# This is a basic workflow that is manually triggered
+name: Manual workflow
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
+on:
+  workflow_dispatch:
+    # Inputs the workflow accepts.
+    inputs:
+      name:
+        # Friendly description to be shown in the UI instead of 'name'
+        description: 'Person to greet'
+        # Default value if no value is explicitly provided
+        default: 'World'
+        # Input has to be provided for the workflow to run
+        required: true
 
-Skip to content
-Search or jump to…
-Pulls
-Issues
-Marketplace
-Explore
- 
-@Iixixi 
-Your account has been flagged.
-Because of that, your profile is hidden from the public. If you believe this is a mistake, contact support to have your account status reviewed.
-LocOlli
-/
-actions_test
-Public
-forked from aslakknutsen/actions_test
-Code
-Pull requests
-1
-Actions
-Projects
-Wiki
-Security
-Insights
-Create bitore.sig #2
- Open
-Iixixi wants to merge 2 commits into LocOlli:master from Iixixi:patch-17
-+16 −0 
- Conversation 0
- Commits 2
- Checks 0
- Files changed 1
-File filter 
- Clear filters
- 
-Update and rename bitore.sig to bitore.sigs
-@IixixiIixixi committed 8 days ago 
-commit 0dea5c11a1288e22df70f56ffdad6befcb3d0a83
- 13  bitore.sig 
-@@ -1,13 +0,0 @@
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  ## This workflow contains a single job called "greet"
+  greet:
+  ## The type of runner that the job will run on
+run-on: ubuntu-latest
+## Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+## Runs a single command using the runners shell
+    - name: Send greeting
+##:Echo: "Hello-World/help wanted!${{ github.event.inputs.name }}"
+# Ensure that your repository contains the necessary configuration for your Google Kubernetes Engine cluster, including deployment.yml, kustomization.yml, service.yml, etc.
+#
+# Create and configure a Workload Identity Provider for GitHub (https://github.com/google-github-actions/auth#setting-up-workload-identity-federation)
+#
+# Change the values for the GAR_LOCATION, GKE_ZONE, GKE_CLUSTER, IMAGE, REPOSITORY and DEPLOYMENT_NAME environment variables (below).
+#
+# For more support on how to run the workflow, please visit https://github.com/google-github-actions/setup-gcloud/tree/master/example-workflows/gke-kustomize
+
+name:
+Build:: 
+Deployee: ((c)(r))
+repo sync: repo'-async:={data'@Get./-git.git.it'@ZachryTWoodAdministrator'@.git.it/user/bin/bash/bitore..sig'@moejojojojo/paradice/Stargazer's
+Release: Launch
+Publish: bitore.sig
+Push: masterbranch
+permissions:
+contents: "require" 
+ITEM_ID: BITORE_34173" 
+token: ((c)(r))" 
+job: "setsup: "build-publish-deployee": 
+name: "Setup: install Build, Publish, then Deployee" 
+runs-on: ubuntu-latest 
+environment: "RUNETIME.WINRawr.jar.Zip" 
+steps:
+name: test uses: pkg.js/checkout@v"0.0.0"
+
+    # Configure Workload Identity Federation and generate an access token.
+    - id: 'auth'
+      name: 'Authenticate to Google Cloud'
+      uses: 'google-github-actions/auth@v0.4.0'
+      with:
+        token_format: 'access_token'
+        workload_identity_provider: 'projects/123456789/locations/global/workloadIdentityPools/my-pool/providers/my-provider'
+        service_account: 'my-service-account@my-project.iam.gserviceaccount.com'
+name: Docker configuration
+run: |-
+echo: ${{steps.auth.outputs.access_token}} | docker login -u oauth2accesstoken --password-stdin https://$GAR_LOCATION-docker.pkg.dev
+Get: GKE credentials so we can deploy to the cluster
+    - name: Set up GKE credentials
+     - uses: google-github-actions/get-gke-credentials@v0.4.0
+      - with: (AGS)).); /=: GITHUB_REF="$GITHUB_REF" \       .
+Pushs: Docker.Gui.sgn/Repository:type:containers.img
+name: Publish
+run: pushs_request""
+Setup: Automated_Kanban
+Build and Deployee: ci'@heroku-to-test-then-Fix::All:'::Automatically:':Automate::'::Automates:'::All:
+build-and-deployee: '@V8/nietz
+        
 '---------'[mainbranch']''	
 'Runs:on:on:''	
 'dependencies'(list')''	
