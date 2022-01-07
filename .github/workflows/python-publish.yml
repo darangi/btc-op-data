@@ -1,3 +1,184 @@
+Skip to content
+Your account has been flagged.
+Because of that, your profile is hidden from the public. If you believe this is a mistake, contact support to have your account status reviewed.
+Iixixi
+/
+btc-op-data
+Public
+forked from darangi/btc-op-data
+Code
+Pull requests
+Actions
+Projects
+Wiki
+Security
+16
+Insights
+Settings
+Jump to bottom
+Stargazers #21
+ Open
+Iixixi wants to merge 15 commits into Masterbranch from Stargazers
+ Open
+Stargazers
+#21
+Iixixi wants to merge 15 commits into Masterbranch from Stargazers
+Conversation 0
+Commits 15
+Checks 0
+Files changed 7
+Conversation
+ 
+@Iixixi Iixixi commented 7 minutes ago • 
+SEC Form 4
+FORM 4 UNITED STATES SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+
+STATEMENT OF CHANGES IN BENEFICIAL OWNERSHIP
+
+Filed pursuant to Section 16(a) of the Securities Exchange Act of 1934
+or Section 30(h) of the Investment Company Act of 1940
+OMB APPROVAL
+OMB Number: 3235-0287
+Estimated average burden
+hours per response: 0.5
+X
+Check this box if no longer subject to Section 16. Form 4 or Form 5 obligations may continue. See Instruction 1(b).
+
+Name and Address of Reporting Person*
+WOOD ZACHRY TYLER
+(Last) (First) (Middle)
+5222 BRADFORD DRIVE
+(Street)
+DALLAS TX 75235
+(City) (State) (Zip)
+Issuer Name and Ticker or Trading Symbol
+Bitcoin[BTC-USD] BTCUSD CCC 5. Relationship of Reporting Person(s) to Issuer
+(Check all applicable)
+Director 10% Owner
+X Officer (give title below) Other (specify below)
+FOUNDER/CO-OWNER
+Date of Earliest Transaction (Month/Day/Year)
+12/31/2021
+If Amendment, Date of Original Filed (Month/Day/Year)
+Individual or Joint/Group Filing (Check Applicable Line)
+X Form filed by One Reporting Person
+Form filed by More than One Reporting Person
+Table I - Non-Derivative Securities Acquired, Disposed of, or Beneficially Owned
+Title of Security (Instr. 3) 2. Transaction Date (Month/Day/Year) 2A. Deemed Execution Date, if any (Month/Day/Year) 3. Transaction Code (Instr. 8) 4. Securities Acquired (A) or Disposed Of (D) (Instr. 3, 4 and 5) 5. Amount of Securities Beneficially Owned Following Reported Transaction(s) (Instr. 3 and 4) 6. Ownership Form: Direct (D) or Indirect (I) (Instr. 4) 7. Nature of Indirect Beneficial Ownership (Instr. 4)
+Code V Amount (A) or (D) Price
+Table II - Derivative Securities Acquired, Disposed of, or Beneficially Owned
+(e.g., puts, calls, warrants, options, convertible securities)
+Title of Derivative Security (Instr. 3) 2. Conversion or Exercise Price of Derivative Security 3. Transaction Date (Month/Day/Year) 3A. Deemed Execution Date, if any (Month/Day/Year) 4. Transaction Code (Instr. 8) 5. Number of Derivative Securities Acquired (A) or Disposed of (D) (Instr. 3, 4 and 5) 6. Date Exercisable and Expiration Date (Month/Day/Year) 7. Title and Amount of Securities Underlying Derivative Security (Instr. 3 and 4) 8. Price of Derivative Security (Instr. 5) 9. Number of derivative Securities Beneficially Owned Following Reported Transaction(s) (Instr. 4) 10. Ownership Form: Direct (D) or Indirect (I) (Instr. 4) 11. Nature of Indirect Beneficial Ownership (Instr. 4)
+Code V (A) (D) Date Exercisable Expiration Date Title Amount or Number of Shares
+Restricted Stock Units (S¹) 11/12/2021
+D 1275375 12/31/2021 NOT NEGOTIABLE Common Stock 12753750 $64935.00(1) 828165521474.00 I
+Explanation of Responses:
+
+Reflects surrender of restricted stock units by the Reporting Person.
+These restricted stock units were surrendered in exchanges represented by FORM D Exempt Offerings of Securities for representing Undecided Ownership for each unit surrendered, including the value of certain accrued dividends.
+Remarks:
+/s/ Vanyessa Countryman, Attorney-in-Fact 12/31/2021
+** Signature of Reporting Person Date
+Reminder: Report on a separate line for each class of securities beneficially owned directly or indirectly.
+If the form is filed by more than one reporting person, see Instruction 4 (b)(v).
+** Intentional misstatements or omissions of facts constitute Federal Criminal Violations See 18 U.S.C. 1001 and 15 U.S.C. 78ff(a).
+Note: File three copies of this Form, one of which must be manually signed. If space is insufficient, see Instruction 6 for procedure.
+Persons who respond to the collection of information contained in this form are not required to respond unless the form displays a currently valid OMB Number.1. Reflects the full vesting of all outstanding time-based restricted stock units held by the Reporting Person, as contemplated by the respective grant agreements, and that certain Agreement and Plan of Merger entered into as of (the "Merger Agreement"), between MORGAN STANLEY SMITH AND BARNEY HOLDINGS INVESTMENT AGENCIES, JOMORGAN CHASE & CO, THE SECURITIES AND EXCHANGE, AND THE U.S. Bank Corporation (the "Issuer") ("BTC-USD"), pursuant to which the Issuer will merge with and into WSFS (the "Merger"). On December 31, 2021, the closing price of the Issuer was $64953.00.
+This amount reflects an amended holding to correct a clerical error that occurred in the Reporting Person's Form 5/A filed May 5, 2021 and Form 4 filings which result in the Reporting Person's undividend investments being reported twice, thereby overstating the common stock holdings shares. Prior to all transactions reported on this exit Form 4 filing, the Reporting Person holds in undivided common stock.
+Reflects the full vesting of all outstanding performance-based restricted stock units held by the Reporting Persons, as contemplated by the respective grant agreement, and the Merger Agreement. Each restricted stock unit represents a contingent right to receive one share of Issuer's common stock. On December 31, 2021, the closing price of the Issuer was 64953 and the closing price of WSFS was 64953
+Pursuant to the terms of the Merger Agreement, at the effective time of the Merger (the "Effective Time"), each share of Issuer's common stock issued and outstanding immediately prior to the Effective Time, subject to certain exceptions, converted into the right to receive, without interest, 100% NAV conversion value of each common restricted share value
+Each restricted stock unit represents a contingent right to receive one share of BTC-USD common stock par value
+Remarks:
+Iixixi added 15 commits 2 months ago
+@Iixixi
+Update rust.yml
+9fc164a
+@Iixixi
+Create gradle.yml
+c9b61e7
+@Iixixi
+Create python-publish.yml
+28d4e53
+@Iixixi
+Update python-publish.yml
+8552f1a
+@Iixixi
+Update python-publish.yml
+47d48ac
+@Iixixi
+Create rust.yml
+7990057
+@Iixixi
+Update README.md
+a24b7ee
+@Iixixi
+Update rust.yml
+c466657
+@Iixixi
+Update python-publish.yml
+a8fccb7
+@Iixixi
+Update gradle.yml
+1b0278a
+@Iixixi
+Update and rename scripts/monitorblocks.js to bitore.sigs
+52c1d47
+@Iixixi
+Rename bitore.sigs to bitore.sig no
+7c947e7
+@Iixixi
+Update bitore.sig no
+9b1bb4b
+@Iixixi
+Create bitore.sig no
+71658a6
+@Iixixi
+Rename bitore.sig to bitore.sigS
+f0fa23b
+Merge state
+Add more commits by pushing to the Stargazers branch on Iixixi/btc-op-data.
+
+This branch has conflicts that must be resolved
+ to resolve conflicts before continuing.
+Conflicting files
+.github/workflows/gradle.yml
+.github/workflows/rust.yml
+README.md
+ or view .
+
+
+Leave a comment
+Remember, contributions to this repository should follow its code of conduct.
+ ProTip! Add .patch or .diff to the end of URLs for Git’s plaintext views.
+Reviewers
+No reviews
+Still in progress? 
+Assignees
+No one—
+Labels
+None yet
+Projects
+None yet
+Milestone
+No milestone
+Notifications
+Customize
+You’re receiving notifications because you’re watching this repository.
+1 participant
+@Iixixi
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
 zachryiixixiiwood@gmail.com
 ###/starts/Runs::/Build::Script::/build_script:const:name:on::"''
 '# -Workflow_call:-on- Toggles-the-runner-on:on::
