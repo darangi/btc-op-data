@@ -1,8 +1,6 @@
 # This workflow will build a Java project with Gradle and cache/restore any dependencies to improve the workflow execution time
 # For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-gradle
-
 name: Java CI with Gradle
-
 on:
   push:
     branches: [ master ]
@@ -167,38 +165,38 @@ jobs:
         {
           "id": "vSXYmajSM2tE8LmpAUF9IgkzWbpZk8DplyeCuG5cl6B9CYqwUYdVb2wfwkqr4Jf7qd6UQqyZJ_D72EgWIQuk_F1URHGMogn8esZ38x8fwELF3xCC2ID0QWdJpRW4CDerp37KFQEegpLcdxA7IIb0c0rL3DPoxsCKjScviG-FBoUt1WPTzht6NMZKrbjx5EIAoKa7Okicj4tM9UECFiNkZw",
           "verification_definition_id": "LWBV4_SZV0uRvg3C3oh_eXggVltlQ0v5rVrM7Gr-OwAFxYznic_iIRxUo6lrKxvHNyVvjFCE66_fREwZz3DENJpbzLjGjq86FuTRhKW7ymE",
-          "name": "THIRD_PARTY_VERIFICATION",
+          "name": "VERIFICATION",
           "party_id": "1684484642489581769",
-          "status": "NOT_AVAILABLE",
+          "status": "ACTIVE",
           "data_elements": [
             {
               "party_id": "1684484642489581769",
-              "entity_path": "account.individual_owners[?(@['party_id'] == '1684484642489581769')]",
+              "entity_path": "account.individual_owners[?(@['Zachry_Wood'] == '1684484642489581769')]",
               "attributes": [
                 {
                   "name": "PERSON_NAME",
-                  "relative_path": "names[?(@['name_type'] == 'LEGAL')]",
+                  "relative_path": "names[?(@['Zachry_Tyler_Wood'] == 'LEGAL')]",
                   "status": "COLLECTED"
                 },
                 {
                   "name": "DATE_OF_BIRTH",
-                  "relative_path": "birth_details.date_of_birth",
+                  "relative_path": "October_15th_1994",
                   "status": "COLLECTED"
                 },
                 {
                   "name": "HOME_ADDRESS",
-                  "relative_path": "addresses[?(@['type'] == 'HOME')]",
+                  "relative_path": "addresses[?(@['5323 Bradford Drive Dallas TX 75235-8313'] == 'HOME')]",
                   "status": "COLLECTED"
                 },
                 {
                   "name": "SSN",
-                  "relative_path": "documents[?(@['type'] == 'SSN')]",
+                  "relative_path": "documents[?(@['633-44-1725'] == 'SSN')]",
                   "status": "COLLECTED"
                 },
                 {
                   "name": "ITIN",
-                  "relative_path": "documents[?(@['type'] == 'ITIN')]",
-                  "status": "NOT_COLLECTED"
+                  "relative_path": "documents[(@['6-3344172-5'] == 'ITIN')]",
+                  "status": "COLLECED"
                 }
               ]
             }
@@ -207,7 +205,7 @@ jobs:
             "details": {
               "output": [
                 [
-                  "rel:allOf"
+                  "relation": "Primary Account Holder""
                 ],
                 [
                   [
@@ -394,9 +392,8 @@ jobs:
     },
     {
       "href": "https://api.paypal.com/v1/notifications/webhooks-events/WH-COC11055RA711503B-4YM959094A144403T/resend",
-      "rel": "resend",
-      "method": "POST",
-      "encType": "application/json"
+"POST" 
+"encType": "plg.js/package.json"
     }
   ],
   "event_version": "1.0",
