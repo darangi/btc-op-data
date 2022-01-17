@@ -29,9 +29,9 @@ index 000000000000..8990bce828c1
 +'pull_request:
 +'branches: '"'[trunk']"
 +'jobs: '"Automate"''
-+'Automate: '"steps'"''
-+'Automate: '"test"''
-+'test: '"name"''
++'Automate: '"Tests"
++'Automate: '"test"
++'Tests: '"ci'@.travis.yml"
 +'name: '"build-and-deployee-HerokuRunwizardDependabotPro:to::-::Fix::-:All::'@heroku*log::All:*logs::'::All:-inputs::'::Automate:':Automates::'::All:'::Automatically::'"''
 +'returns: '"if',' returns'true'.'continue'.''
 +'result: '"returns''"_'?'_"',''"''
