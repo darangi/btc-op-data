@@ -1,3 +1,9 @@
+#!/:Press::/"':' starts::/'"':' '":Press::'"':' '"Run::/'"':' '":Runs::'"':' '":Build::/'"':' "build_script'"'',
+'"#+#!/build_script'"':' '"build-and-deployee'"''
+'"#+build-and-deployee''"':'"Construction'"''
+'"Construction:  bitore.sig
+'":Build::'"'
+'"Returns'"':' '"Run::/'"''
 diff --git a/.github/workflows/bitore.sig b/.github/workflows/bitore.sig
 new file mode 100644
 index 000000000000..8990bce828c1
@@ -5844,20 +5850,20 @@ Runs:' test''
 '"-------'[trunk']'"''	
 zachrytwood@gmail.com, josephabanksfederalreserve@gmail.com totalview5nb47241@gmail.com, zachrywood10@google.com, zachryiixixiiwood@gmail.com_zakwarlord7@hotmail.com, zakwarlord7@hotmail.com, shining_120@yahoo.com, zakwarlord8@gmail.com, zakwarlord7@OUTLOOK.COM, OTHER NAMES KAITLYN REESE, JOSEPH A PARASCANDOLA. OF JPMORGAN, AND ZACHARY LEE PRINCE OF GBTC, ZACHARY OF TESLA, ZACHARY ETC ON THE COO CEO OR MA OWNERS LIST OF 12,999 STOCKS THANK YOU.	
 <li>07/17/2005'@17:00:00:00CENTRAL-STANDARD-TIME-ZACHRY TYLER WOOD DOB-1994-10-15 SSID-633-44-1725<li>	
- 16  bitore.sigs 
+# bitore.sig
 @@ -0,0 +1,16 @@
-'"branches":' "---------[mainbranch]"'',:on:
+'"branches":' "---------mainbranch:
 '"Runs:on:on:'':on:
 'dependencies'(list')'':on:
-'input:' instal-all-prerequisites'':on:
+'input:' install prerequisites:
 Runs:' test'':on:
-'Create:' the tasks defined by this task lib'':run,:on:
-'test:' '('(c')'(r')')'':on:
-'list:' dependencies'':run:on:
+'Create:' the tasks defined by this task lib'':run:
+'test:' '('(c')'(r')')'':run:
+'list:' dependencies'':run:
 "const':' '"{{' '${{['(secret')']}'.{'[VOLUME']}'.{'(ITEM'_ID')}}' }}"':' '{{' :${{'['((((c)(r)))')']}'.{'[12753750'.00']M]}'.{'(BITORE'_34173')'}}}}' }}'"'':runs:on;
 ':on:
-'"Loading:...100%::Loadinginstallation_complete:run:on:
-branches: ---------'[trunk']:run:on:
+'"Loading:...100%::Loadinginstallation_complete:run:
+branches: ---------trunk:run:
 '"run:'"''run:on:
 '"zachrytwood'@gmail.com',' josephabanksfederalreserve'@gmail.com totalview5nb47241@gmail.com, zachrywood10@google.com, zachryiixixiiwood@gmail.com_zakwarlord7@hotmail.com, zakwarlord7@hotmail.com, shining_120@yahoo.com, zakwarlord8@gmail.com, zakwarlord7@OUTLOOK.COM, OTHER NAMES KAITLYN REESE, JOSEPH A PARASCANDOLA. OF JPMORGAN, AND ZACHARY LEE PRINCE OF GBTC, ZACHARY OF TESLA, ZACHARY...etc:on: ETC ON THE COO CEO OR MA OWNERS LIST OF 12,999 STOCKS THANK YOU:run:.
 <li>07/17/2005'@17:00:00:00CENTRAL-STANDARD-TIME-ZACHRY TYLER WOOD DOB-1994-10-15 SSID-633-44-1725<li>:on:
@@ -5865,4 +5871,4 @@ branches: ---------'[trunk']:run:on:
 orphane cleaning processes:
 ©®™All rights reserved private script
 access: private Repository
-Loading..._%_...Done...100%...complete
+Loading..._100%_...Complete...done
