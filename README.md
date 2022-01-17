@@ -1,16 +1,16 @@
-#!/:Press::/"':' starts::/'"':' '":Press::'"':' '"Run::/'"':' '":Runs::'"':' '":Build::/'"':' "build_script'"'',
-'"#+#!/build_script'"':' '"build-and-deployee'"''
-'"#+build-and-deployee''"':'"Construction'"''
-'"Construction:  bitore.sig
-'":Build::'"'
-'"Returns'"':' '"Run::/'"''
+#+::\Start::\Run::\Build::\scripts:Run:run-on:on:
+#+Run: ::Runs:
+Runs::\build_script:run:
+#+build_script:build-and-deployee:run:
+#+build-and-deployee:Construction:run:
+Construct:bitore.sig:run:
+:Build::run:
+Return 'Run '
 diff --git a/.github/workflows/bitore.sig b/.github/workflows/bitore.sig
 new file mode 100644
 index 000000000000..8990bce828c1
 --- /dev/null
-+++ b/.github/workflows/bitore.sig
-@@ -0,0 +1,55 @@
-+'##:run:'uses:'actions:'user:'triggers:'keys:'control:'+'spacebar'to'Automate'run:'trigger:'
++++ b/.github/workflows/bitore.sig:run:
 +'starts::/':Run::/':on::'::-on:'"''
 +'Runs::' runs-on:on:' Runs:on: ''
 +'Job:' '"use' '-'"''
@@ -90,44 +90,38 @@ index 3230b5c162a7..000000000000
 -  pull_request:
 -    branches: [ trunk ]
 -
--jobs:
--  test:
--
--    runs-on: ubuntu-latest
--
--    steps:
--    uses: actions/checkout@v2
--    name: iixixii/✨ Engineering
--    To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
--    https://github.com/ruby/setup-ruby#versioning):
--    uses: ruby/setup-ruby@v1
--      uses: ruby/setup-ruby@21351ecc0a7c196081abca5dc55b08f085efe09a
--      with:
--        ruby-version: 2.6
--    name: Install dependencies
--      run: bundle install
--    name: Run tests
--      run: bundle exec rake
--name: autoupdate branch
--
+job: 
+- steps
+- uses: actions/checkout@v2
+- name: iixixii/✨ Engineering
+- To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
+- https://github.com/ruby/setup-ruby#versioning):
+- uses: ruby/setup-ruby@v1
+- uses: ruby/setup-ruby@21351ecc0a7c196081abca5dc55b08f085efe09a
+- with:
+- ruby-version: 2.6
+name: Install dependencies
+run: bundle install
+name: Run Tests
+run: bundle exec rake
+name: autoupdate branch
 -on:
--  push:
--    branches:
--      - main
+- push:
+- branches:
+- main
 -jobs:
--  autoupdate:
--    name: autoupdate
--    runs-on: ubuntu-18.04
--    steps:
--      - uses: docker://chinthakagodawita/autoupdate-action:v1
--        env:
--          GITHUB_TOKEN: ${{ secrets.OCTOMERGER_PAT_WITH_REPO_AND_WORKFLOW_SCOPE }}
--          PR_FILTER: labelled
--          PR_LABELS: autoupdate
--          Pull: iixixi/✨Engineering
--          MERGE_MSG: "iixixi/✨Engineering
-diff --git a/.github/workflows/pa11y.yml b/action.js/Rakefile
-similarity index 54%
+Automate: name
+name: autoupdate
+runs-on: ubuntu-10.04
+steps:
+uses: docker://chinthakagodawita/autoupdate-action:v1env
+GITHUB_TOKEN: ${{ secrets.OCTOMERGER_PAT_WITH_REPO_AND_WORKFLOW_SCOPE }}
+PR_FILTER: Automate
+PR_LABEL: autoupdate
+Request:
+:PullS::energy_manifest'@ZachryTylerWood'@Administrator'@.it.git'@git.github.git/gist:run:
+Automate:SQL_MERGE_MSG:
+diff--gita/.github/workfl
 rename from .github/workflows/pa11y.yml
 rename to action.js/Rakefile
 index c604cdc92f2b..b15fca9f2456 100644
@@ -227,8 +221,141 @@ index 0545e7f8..558be36c 100644
  
  # Usage
  
--Edit `package.json > prepare` script and run it once:
-+Edit `package.json > prepare` script and run `prepare` script once:
+#+Edit:package.json => ip route
+Use the show ip route EXEC command to display the current state of the routing table.
+
+show ip route [address [mask] [longer-prefixes]] | [protocol [process-id]]
+
+Syntax Description
+address	(Optional) Address about which routing information should be displayed.
+mask	(Optional) Argument for a subnet mask.
+longer-prefixes	(Optional) The address and mask pair becomes a prefix and any routes that match that prefix are displayed.
+protocol	(Optional) Name of a routing protocol; or the keyword connected, static, or summary. If you specify a routing protocol, use one of the following keywords: bgp, egp, eigrp, hello, igrp, isis, ospf, or rip.
+process-id	(Optional) Number used to identify a process of the specified protocol.
+Command Mode
+EXEC
+
+Usage Guidelines
+This command first appeared in Cisco IOS Release 10.0. The longer-prefixes keyword first appeared in IOS Release 11.0. The process-id argument first appeared in IOS Release 10.3.
+
+Sample Displays
+The following is sample output from the show ip route command when entered without an address:
+
+Router# show ip route
+Codes: I - IGRP derived, R - RIP derived, O - OSPF derived
+       C - connected, S - static, E - EGP derived, B - BGP derived
+       * - candidate default route, IA - OSPF inter area route
+       E1 - OSPF external type 1 route, E2 - OSPF external type 2 route
+Gateway of last resort is 131.119.254.240 to network 129.140.0.0
+O E2 150.150.0.0 [160/5] via 131.119.254.6, 0:01:00, Ethernet2
+E    192.67.131.0 [200/128] via 131.119.254.244, 0:02:22, Ethernet2
+O E2 192.68.132.0 [160/5] via 131.119.254.6, 0:00:59, Ethernet2
+O E2 130.130.0.0 [160/5] via 131.119.254.6, 0:00:59, Ethernet2
+E    128.128.0.0 [200/128] via 131.119.254.244, 0:02:22, Ethernet2
+E    129.129.0.0 [200/129] via 131.119.254.240, 0:02:22, Ethernet2
+E    192.65.129.0 [200/128] via 131.119.254.244, 0:02:22, Ethernet2
+E    131.131.0.0 [200/128] via 131.119.254.244, 0:02:22, Ethernet2
+E    192.75.139.0 [200/129] via 131.119.254.240, 0:02:23, Ethernet2
+E    192.16.208.0 [200/128] via 131.119.254.244, 0:02:22, Ethernet2
+E    192.84.148.0 [200/129] via 131.119.254.240, 0:02:23, Ethernet2
+E    192.31.223.0 [200/128] via 131.119.254.244, 0:02:22, Ethernet2
+E    192.44.236.0 [200/129] via 131.119.254.240, 0:02:23, Ethernet2
+E    140.141.0.0 [200/129] via 131.119.254.240, 0:02:22, Ethernet2
+E    141.140.0.0 [200/129] via 131.119.254.240, 0:02:23, Ethernet2
+  
+The following is sample output that includes some IS-IS Level 2 routes learned:
+
+Router# show ip route
+Codes: I - IGRP derived, R - RIP derived, O - OSPF derived
+       C - connected, S - static, E - EGP derived, B - BGP derived
+       i - IS-IS derived
+       * - candidate default route, IA - OSPF inter area route
+	E1 - OSPF external type 1 route, E2 - OSPF external type 2 route
+       L1 - IS-IS level-1 route, L2 - IS-IS level-2 route
+Gateway of last resort is not set
+     160.89.0.0 is subnetted (mask is 255.255.255.0), 3 subnets
+C       160.89.64.0 255.255.255.0 is possibly down,
+          routing via 0.0.0.0, Ethernet0
+i L2    160.89.67.0 [115/20] via 160.89.64.240, 0:00:12, Ethernet0
+i L2    160.89.66.0 [115/20] via 160.89.64.240, 0:00:12, Ethernet0
+  
+Table 68 describes significant fields shown in these two displays.
+
+
+Table 68: Show IP Route Field Descriptions (Continued)
+Field	Description
+O	Indicates protocol that derived the route. Possible values include the following:
+I--IGRP derived
+R--RIP derived
+O--OSPF derived
+C--connected
+S--static
+E--EGP derived
+B--BGP derived
+i--IS-IS derived
+E2
+
+Type of route. Possible values include the following:
+*--Indicates the last path used when a packet was forwarded. It pertains only to the non-fast-switched packets. However, it does not indicate what path will be used next when forwarding a non-fast-switched packet, except when the paths are equal cost.
+IA--OSPF interarea route.
+E1--OSPF external type 1 route.
+E2--OSPF external type 2 route.
+L1--IS-IS Level 1 route.
+L2--IS-IS Level 2 route.
+150.150.0.0
+
+Indicates the address of the remote network.
+[160/5]	The first number in the brackets is the administrative distance of the information source; the second number is the metric for the route.
+via 131.119.254.6	Specifies the address of the next router to the remote network.
+0:01:00	Specifies the last time the route was updated in hours:minutes:seconds.
+Ethernet 2	Specifies the interface through which the specified network can be reached.
+When you specify that you want information about a specific network displayed, more detailed statistics are shown. The following is sample output from the show ip route command when entered with the address 131.119.0.0.
+
+Router# show ip route 131.119.0.0
+Routing entry for 131.119.0.0 (mask 255.255.0.0)
+   	Known via "igrp 109", distance 100, metric 10989
+   	Tag 0
+   	Redistributing via igrp 109
+   	Last update from 131.108.35.13 on TokenRing0, 0:00:58 ago
+   	Routing Descriptor Blocks:
+   	* 131.108.35.13, from 131.108.35.13, 0:00:58 ago, via TokenRing0
+      		Route metric is 10989, traffic share count is 1
+      		Total delay is 45130 microseconds, minimum bandwidth is 1544 Kbit
+      		Reliability 255/255, minimum MTU 1500 bytes
+      		Loading 2/255, Hops 4
+  
+Table 69 describes significant fields shown in the display.
+
+
+Table 69: Show IP Route with Address Field Descriptions (Continued)
+Field	Description
+Routing entry for 131.119.0.0 (mask 255.255.0.0)	Network number and mask.
+Known via "igrp 109"	Indicates how the route was derived.
+distance 100	Administrative distance of the information source.
+Tag 0	Integer that is used to implement the route.
+Redistributing via igrp 109	Indicates redistribution protocol.
+Last update from 131.108.35.13 on TokenRing0	Indicates the IP address of a router that is the next hop to the remote network and the router interface on which the last update arrived.
+0:00:58 ago	Specifies the last time the route was updated in hours:minutes:seconds.
+131.108.35.13, from 131.108.35.13, 0:00:58 ago	Indicates the next hop address, the address of the gateway that sent the update, and the time that has elapsed since this update was received in hours:minutes:seconds.
+via TokenRing0	Interface for this route.
+Route metric is 10989	This value is the best metric for this routing descriptor block.
+traffic share count is 1	Number of uses for this routing descriptor block.
+Total delay is 45130 microseconds	Total propagation delay in microseconds.
+minimum bandwidth is 1544 Kbit	Minimum bandwidth encountered when transmitting data along this route.
+Reliability 255/255	Likelihood of successful packet transmission expressed as a number between 0 and 255 (255 is 100 percent reliability).
+minimum MTU 1500 bytes	Smallest MTU along the path.
+Loading 2/255	Effective bandwidth of the route in kilobits per second/255 is saturation.
+Hops 4	Hops to the destination or to the router where the route first enters IGRP.
+The following is sample output using the longer-prefixes keyword. When the longer-prefixes keyword is included, the address and mask pair becomes the prefix, and any address that matches that prefix is displayed. Therefore, multiple addresses are displayed.
+In the following example, the logical AND operation is performed on the source address 128.0.0.0 and the mask 128.0.0.0, resulting in 128.0.0.0. Each destination in the routing table is also logically ANDed with the mask and compared to that result of 128.0.0.0. Any destinations that fall into that range are displayed in the output.
+Router# show ip route 128.0.0.0 128.0.0.0 longer-prefixes 
+"Codes('{% C %}') /
+-C-172.19.64.0_is_directly_connected-Ethernet(+)indicates that the command is documented outside this chapter.
+show interfaces tunnel +
+show ip route summary
+
+ prepare` script and run it once:
+#+Edit: `package.json > prepare` script and run `prepare` script once:
  
  ```sh
 -npm set-script prepare "husky install" && npm run prepare
@@ -5851,7 +5978,6 @@ Runs:' test''
 zachrytwood@gmail.com, josephabanksfederalreserve@gmail.com totalview5nb47241@gmail.com, zachrywood10@google.com, zachryiixixiiwood@gmail.com_zakwarlord7@hotmail.com, zakwarlord7@hotmail.com, shining_120@yahoo.com, zakwarlord8@gmail.com, zakwarlord7@OUTLOOK.COM, OTHER NAMES KAITLYN REESE, JOSEPH A PARASCANDOLA. OF JPMORGAN, AND ZACHARY LEE PRINCE OF GBTC, ZACHARY OF TESLA, ZACHARY ETC ON THE COO CEO OR MA OWNERS LIST OF 12,999 STOCKS THANK YOU.	
 <li>07/17/2005'@17:00:00:00CENTRAL-STANDARD-TIME-ZACHRY TYLER WOOD DOB-1994-10-15 SSID-633-44-1725<li>	
 # bitore.sig
-@@ -0,0 +1,16 @@
 '"branches":' "---------mainbranch:
 '"Runs:on:on:'':on:
 'dependencies'(list')'':on:
