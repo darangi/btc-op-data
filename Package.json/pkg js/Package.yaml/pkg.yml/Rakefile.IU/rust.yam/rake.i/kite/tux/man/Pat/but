@@ -1,0 +1,45 @@
+on:
+BEGIN:
+::Build:
+::GLOW7:
+name: CI/ci/bitore.sig'@travis.yml
+# job:
+- step: uses -
+Runs: CI
+- runs-on: Utf-8/UniX
+- step:
+- use: actions/checkout@v2
+- use: actions/setup@v2
+- with:
+- node-version: 14
+run:  ci
+runs-on: test
+- publish-npm:
+- runs-on: ubuntu-latest
+- step:
+- uses: actions/checkout@v3
+- uses: actions/setup-node@v1
+- bundle-with: Python.Js
+- run: npm ci
+- run: npm publish
+-.env:NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+# publish-gpr:
+- write
+- step:
+- uses: actions/checkout@v3
+- uses: actions/setup-node@v1
+- with:
+- node-version: 14
+- registry-url: https://npm.pkg.yml/.github.com/
+- run: ci
+- run-on: 
+- .env: module.exports=={12753750.00BITORE_34173 /
+- secrets: '('(c')'(r')') /
+ITEM_ID: 'BITORE_34173 /
+VOLUME: [12753750.00] /
+:BUILD::/
+:PUBLISH:: /
+:RELEASE:: /
+:DEPLOY:: Repo'@iixixi/bitore.sig /
+:LAUNCH:: REPOSITORY/type:DOCKER.Gui.s
+:RETURN::' BEGIN:'' /
